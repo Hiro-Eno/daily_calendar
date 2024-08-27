@@ -40,7 +40,7 @@ img {
 
 #button1 {
   font-size: 1rem;
-  font-family: Seravek;
+  font-family: Seravek, sans-serif;
   font-weight: bolder;
   width: 7rem;
   height: 2rem;
@@ -55,7 +55,7 @@ img {
 
 #button2 {
   font-size: 1rem;
-  font-family: Seravek;
+  font-family: Seravek, sans-serif;
   font-weight: bolder;
   width: 7rem;
   height: 2rem;
