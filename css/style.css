@@ -29,7 +29,7 @@ img {
   display: inline-block;
   font-size: 1.25rem;
   font-weight: bolder;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   position: relative;
   margin-right: 130px;
 }
@@ -42,7 +42,7 @@ img {
 */
 .title::before {
   content: "";
-  width: 100px;
+  width: 80px;
   height: 3px;
   background-color: #747171;
   position: absolute;
@@ -50,7 +50,7 @@ img {
   left: -120px;
 }
 
-.button {
+#button1 {
   font-size: 1rem;
   font-family: "Cascadia Code";
   font-weight: bolder;
@@ -58,10 +58,25 @@ img {
   height: 2rem;
   color: #4345c7; 
   background-color:  #ddf5be70;
-  border: transparent;
+  border: 1px solid rgba(214, 214, 214, 0.2);
   position: relative;
+  border-radius: 60px 0 0 60px;
+  margin-bottom: 10px;
 }
 
+#button2 {
+  font-size: 1rem;
+  font-family: "Cascadia Code";
+  font-weight: bolder;
+  width: 6rem;
+  height: 2rem;
+  color: #4345c7; 
+  background-color:  #ddf5be70;
+  border: 1px solid rgba(214, 214, 214, 0.2);
+  position: relative;
+  border-radius: 0 60px 60px 0;
+  margin-bottom: 10px;
+} 
 
 /*-------------------------------------------
 SP
