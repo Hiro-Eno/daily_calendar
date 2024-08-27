@@ -75,11 +75,11 @@ SP
   }
   .title {
     font-size: 1rem;
-    left: 20px;
+    left: 30px;
   }
   .title::before {
-    width: 10px;
-    left: -20px;
+    width: 20px;
+    left: -30px;
   }
   #button1 {
     width: 5rem;
