@@ -23,7 +23,7 @@ img {
   display: inline-block;
   font-size: 1.25rem;
   font-weight: bolder;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   position: relative;
   margin-right: 60px;
 }
@@ -49,7 +49,7 @@ img {
   border: 1px solid rgba(214, 214, 214, 0.2);
   position: relative;
   border-radius: 60px 20px 20px 60px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   box-shadow: 1px 1px 1px #c0c0c0;
 }
 
@@ -64,7 +64,7 @@ img {
   border: 1px solid rgba(214, 214, 214, 0.2);
   position: relative;
   border-radius: 20px 60px 60px 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   box-shadow: 1px 1px 1px #c0c0c0;
 } 
 
@@ -78,6 +78,7 @@ SP
   .title {
     font-size: 1rem;
     left: 40px;
+    margin-bottom: 10px;
   }
   .title::before {
     width: 30px;
@@ -85,8 +86,10 @@ SP
   }
   #button1 {
     width: 5rem;
+    margin-bottom: 10px;
   } 
   #button1 {
     width: 5rem;
+    margin-bottom: 10px;
   } 
 }
