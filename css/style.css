@@ -68,9 +68,6 @@ img {
   box-shadow: 1px 1px 1px #c0c0c0;
 } 
 
-/*-------------------------------------------
-SP
--------------------------------------------*/
 @media screen and (max-width: 600px) {
   .content {
     padding: 0 20px;
@@ -85,12 +82,12 @@ SP
     left: -40px;
   }
   #button1 {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     width: 5.5rem;
     margin-bottom: 10px;
   } 
   #button2 {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     width: 5.5rem;
     margin-bottom: 10px;
   } 
