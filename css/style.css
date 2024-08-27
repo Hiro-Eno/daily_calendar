@@ -18,13 +18,7 @@ img {
   max-width: 1200px;
   margin: 10px auto;
 }
-/*
-【タイトル】
-画面幅を縮めた際に、要素が左にはみ出すのを防ぐために
-「display: inline-block;」を指定。
-タイトルを基準に疑似要素で横線位置を調整するため、
-「position: relative;」を設定しておく。
-*/
+
 .title {
   display: inline-block;
   font-size: 1.25rem;
@@ -33,21 +27,15 @@ img {
   position: relative;
   margin-right: 130px;
 }
-/*
-【タイトル（横線）】
-「width」「height」で長さと太さを設定。
-「content」を指定することで線が表示される。
-「position」「top」「left」で、タイトルを基準に
-横線の位置を設定します。
-*/
+
 .title::before {
   content: "";
-  width: 80px;
+  width: 90px;
   height: 3px;
   background-color: #747171;
   position: absolute;
   top: 55%;
-  left: -120px;
+  left: -100px;
 }
 
 #button1 {
@@ -86,6 +74,6 @@ SP
     padding: 0 20px;
   }
   .title {
-    left: 120px;
+    left: 100px;
   }
 }
