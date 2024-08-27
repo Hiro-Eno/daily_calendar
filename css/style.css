@@ -6,7 +6,7 @@ html {
 body {
   color: #676767;
   background-color:  #fff6e99f;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   letter-spacing: 3px;
 }
 img {
@@ -40,30 +40,32 @@ img {
 
 #button1 {
   font-size: 1rem;
-  font-family: "Cascadia Code";
+  font-family: Seravek;
   font-weight: bolder;
   width: 6rem;
   height: 2rem;
-  color: #a0a2ee; 
+  color: #989ae2; 
   background-color:  #eaf8d870;
   border: 1px solid rgba(214, 214, 214, 0.2);
   position: relative;
-  border-radius: 60px 0 0 60px;
+  border-radius: 60px 20px 20px 60px;
   margin-bottom: 10px;
+  box-shadow: 1px 1px 1px #c0c0c0;
 }
 
 #button2 {
   font-size: 1rem;
-  font-family: "Cascadia Code";
+  font-family: Seravek;
   font-weight: bolder;
   width: 6rem;
   height: 2rem;
-  color: #d2b4eb; 
+  color: #c8a8e2; 
   background-color:  #eaf8d870;
   border: 1px solid rgba(214, 214, 214, 0.2);
   position: relative;
-  border-radius: 0 60px 60px 0;
+  border-radius: 20px 60px 60px 20px;
   margin-bottom: 10px;
+  box-shadow: 1px 1px 1px #c0c0c0;
 } 
 
 /*-------------------------------------------
@@ -75,11 +77,11 @@ SP
   }
   .title {
     font-size: 1rem;
-    left: 30px;
+    left: 40px;
   }
   .title::before {
-    width: 20px;
-    left: -30px;
+    width: 30px;
+    left: -40px;
   }
   #button1 {
     width: 5rem;
