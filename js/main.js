@@ -29,11 +29,12 @@ function next(){
 }
 
 function random(){
-    for(let i=0; i<9 ; i++){
+    for(let i=0; i<5 ; i++){
         setTimeout(() => {
             day = Math.round(Math.random()*30) + 1;
             let randomImagePath = makeImagePath(day);
             calendarImage.src = randomImagePath;
-        }, 3 * i * i * i);
+        }, (1000 + 200 * i * i));
     } 
 }
+
