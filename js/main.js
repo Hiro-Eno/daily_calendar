@@ -2,7 +2,8 @@
 
 const calendarImage = document.getElementById("calendar");
 
-let day = today();
+let day = 0
+day = today();
 
 function makeImagePath(day){
     const day_ = day < 10 ? `0${day}` : day;
@@ -10,7 +11,7 @@ function makeImagePath(day){
 }
 
 function today(){
-    let day = new Date().getDate();
+    day = new Date().getDate();
     const todayImagePath = makeImagePath(day);
     calendarImage.src = todayImagePath;
     return day;
@@ -30,11 +31,12 @@ function next(){
 
 function random(){
     for(let i=0; i<5 ; i++){
+        let delay = 1000 + 200 * i * i;
         setTimeout(() => {
             day = Math.round(Math.random()*30) + 1;
             let randomImagePath = makeImagePath(day);
             calendarImage.src = randomImagePath;
-        }, (1000 + 200 * i * i));
+        }, delay);
     } 
 }
 
