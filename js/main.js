@@ -31,7 +31,7 @@ function next(){
 
 function random(){
     for(let i=0; i<5 ; i++){
-        let delay = 400 * i + 200 * i * i;
+        let delay = 500 * i;
         setTimeout(() => {
             day = Math.round(Math.random()*30) + 1;
             let randomImagePath = makeImagePath(day);
